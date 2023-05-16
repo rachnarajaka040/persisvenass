@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       {/* Navbar start */}
-      <nav className="navbar bg-primary nav" data-bs-theme="dark"  >
+      <nav className="navbar bg-primary nav" data-bs-theme="dark">
         <div className="container-fluid">
           <a className="navbar-brand"><span style={{ fontSize: "25px" }}>🌟</span>Redefine Status</a>
           <form className="d-flex" role="search">
@@ -23,15 +23,15 @@ function App() {
       </nav>
       {/* navbar end */}
 
-      <div className='divimg'>
+      <div className='divimg card-body'>
         <img className="img" src="https://redefinestatus.com/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1568736772245-26914aae0b09%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&w=3840&q=75"></img>
         <p className='star' style={{ fontSize: "74px", textAlign: "center", marginTop: "-50px" }}>🌟</p>
       </div>
       <h1 style={{ textAlign: "center" }}><mark>Redefine Status</mark></h1> <br></br>
 
-      <Section1/>
+    <Section1/>
       <div className="card-body bg-primary text-bg-danger div1" style={{ borderLeft: "4px solid red" }}>
-
+       
         <p className="card-text pclass">“Over the past hundred years we have increase the global GDP sevenfold,
           yet wealth inequality continues to skyrocket and luxury spending grows rapidly. In order to change
           the failure of redistribution of wealth at scale, we must effectively influence culture and help
@@ -43,7 +43,7 @@ function App() {
           overspending on vanity luxury goods.” - Jack Jay</p>
 
       </div>
-      
+
       <u ><p className="div1" style={{ color: "red", fontWeight: "600px", fontSize: "1.25em" }}>A Deeper Dive:</p></u> <br></br>
       <div className="card border-primary mb-3 div1" >
 
@@ -115,7 +115,7 @@ function App() {
       </div>
       <Sectionlast/>
       <Darkmood />
-     
+      
 
     </div>
 
