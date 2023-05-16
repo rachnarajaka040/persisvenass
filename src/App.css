@@ -1,12 +1,103 @@
-.App {
-  text-align: center;
+
+body
+{
+  margin-left:20px;
+  margin-right:20px;
+
+}
+.card-body{
+  margin-bottom: 10px;
+}
+.card-text
+{
+  padding: 10px;
+  height: auto;
+}
+.img
+{
+  width:1200px;
+  height:223px;
+  object-fit:cover;
+  margin: auto;
+  display: flex;
+  margin-top:10px;
+  border-radius: 16px ;
+
+}
+.cardimg{
+  width:900px;
+  height:667px;
+  margin: auto;
+  display: flex;
+  
+  
+}
+.nav
+{
+  position:sticky;
+  top:0;
+  z-index: 99;
+}
+.div1
+{
+  margin:0px 280px ;
+}
+.blccolor
+{
+  color:black;
 }
 
+/* .divimg
+{
+  padding-left: 20px;
+  padding-right: 20px;
+} */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+
+.container{
+  position: relative;
+}
+
+.dark{
+  background-color: black;
+}
+.sun, .moon{
+  font-size: 10rem;
+  width: fit-content;
+  height: fit-content;
+}
+.moon{
+  position: absolute;
+  inset: 0;
+}
+.moon-logo{
+  opacity: 0;
+  transform: translateY(20%) rotateZ(50deg);
+  transition: all 1s ease-out;
+}
+.sun-logo{
+  opacity: 1;
+  transform: translateY(0) rotateZ(0deg);
+  transition: all 1s ease-out;
+}
+.animate-sun{
+  opacity: 0;
+  transform: translateY(20%) rotateZ(100deg);
+}
+.animate-moon{
+  opacity: 1;
+  transform: translateY(0%) rotateZ(0deg);
+}
+.animate-moon path{
+fill: white;
+}
+.animate-sun path{
+fill: white;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -23,7 +114,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.pclass{
+  font-size: 20px;
+  margin: -0%;
+}
 .App-link {
   color: #61dafb;
 }
